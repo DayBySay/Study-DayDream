@@ -39,12 +39,12 @@ GraphicsSettings:
     useReflectionProbeBlending: 0
   m_ShaderSettings_Tier2:
     useCascadedShadowMaps: 0
-    standardShaderQuality: 0
+    standardShaderQuality: 1
     useReflectionProbeBoxProjection: 0
     useReflectionProbeBlending: 0
   m_ShaderSettings_Tier3:
     useCascadedShadowMaps: 0
-    standardShaderQuality: 0
+    standardShaderQuality: 1
     useReflectionProbeBoxProjection: 0
     useReflectionProbeBlending: 0
   m_BuildTargetShaderSettings: []

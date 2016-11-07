@@ -183,7 +183,13 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 128
+      m_Height: 128
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   webPlayerTemplate: APPLICATION:Default
@@ -449,7 +455,7 @@ PlayerSettings:
   - XboxOne::enus
   - iOS::VR::enable
   - tvOS::VR::enable
-  Android::VR::enable: 0
+  Android::VR::enable: 1
   Metro::VR::enable: 0
   N3DS::VR::enable: 0
   PS3::VR::enable: 0
@@ -504,7 +510,8 @@ PlayerSettings:
   - XboxOne::VR::enabledDevices
   - iOS::VR::enabledDevices
   - tvOS::VR::enabledDevices
-  Android::VR::enabledDevices: []
+  Android::VR::enabledDevices:
+  - daydream
   Metro::VR::enabledDevices: []
   N3DS::VR::enabledDevices: []
   PS3::VR::enabledDevices: []
