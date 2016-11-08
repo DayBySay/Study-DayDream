@@ -786,6 +786,7 @@ GameObject:
   - 33: {fileID: 946688430}
   - 135: {fileID: 946688429}
   - 23: {fileID: 946688428}
+  - 114: {fileID: 946688431}
   m_Layer: 0
   m_Name: Cursor
   m_TagString: Untagged
@@ -843,7 +844,7 @@ SphereCollider:
   m_GameObject: {fileID: 946688426}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -854,6 +855,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 946688426}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &946688431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 946688426}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3488020e4a01747cfbcf6f0a3d1f3c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1030563145
 GameObject:
   m_ObjectHideFlags: 0
