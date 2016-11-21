@@ -2,15 +2,22 @@
 using System.Collections;
 
 public class GunController : MonoBehaviour {
-	public GameObject gun;
+	public GameObject gunMuzzle;
+	public GameObject gunPivot;
+	public GameObject bullet;
 
 	// Update is called once per frame
 	void Update () {
-		gun.transform.rotation = GvrController.Orientation;
+		gunPivot.transform.rotation = GvrController.Orientation;
 
 		if (GvrController.ClickButtonDown)
 		{
-			Debug.Log("Click!!");	
+			Shoot ();
 		}
+	}
+
+	void Shoot() {
+		GameObject bullet = (GameObject)Instantiate(this.bullet, gunMuzzle.transform.position, Quaternion.identity);
+		bullet.GetComponent<Rigidbody> ().AddForce(gunPivot.transform.forward * 1000);
 	}
 }
