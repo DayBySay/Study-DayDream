@@ -7,5 +7,10 @@ public class GunController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		gun.transform.rotation = GvrController.Orientation;
+
+		if (GvrController.ClickButtonDown)
+		{
+			Debug.Log("Click!!");	
+		}
 	}
 }
