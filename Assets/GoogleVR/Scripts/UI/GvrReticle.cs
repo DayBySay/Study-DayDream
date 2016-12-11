@@ -173,13 +173,23 @@ public class GvrReticle : MonoBehaviour, IGvrGazePointer {
     int vert = 0;
     int idx = 0;
     for (int si = 0; si < segments_count; ++si) {
+      Debug.Log("si: " + si);
       indices[idx++] = vert+1;
+      Debug.Log("indices:" + (idx - 1) + " " + indices[idx-1]);
       indices[idx++] = vert;
+      Debug.Log("indices:" + (idx - 1) + " " + indices[idx-1]);
       indices[idx++] = vert+2;
+      Debug.Log("indices:" + (idx - 1) + " " + indices[idx-1]);
 
       indices[idx++] = vert+1;
+      Debug.Log("indices:" + (idx - 1) + " " + indices[idx-1]);
       indices[idx++] = vert+2;
+      Debug.Log("indices:" + (idx - 1) + " " + indices[idx-1]);
       indices[idx++] = vert+3;
+      Debug.Log("indices:" + (idx - 1) + " " + indices[idx-1]);
+
+      Debug.Log("vert: " + vert);
+      Debug.Log("idx: " + idx);
 
       vert += 2;
     }
