@@ -371,6 +371,25 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23000014157979252, guid: 9bdb2c5f9e2f748beb565843fe13e51d,
+        type: 2}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000014157979252, guid: 9bdb2c5f9e2f748beb565843fe13e51d,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eaa9e60b9dca044ef85a5a2067bd47d7, type: 2}
+    - target: {fileID: 1000010863116770, guid: 9bdb2c5f9e2f748beb565843fe13e51d, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000014157979252, guid: 9bdb2c5f9e2f748beb565843fe13e51d,
+        type: 2}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9bdb2c5f9e2f748beb565843fe13e51d, type: 2}
   m_IsPrefabParent: 0
